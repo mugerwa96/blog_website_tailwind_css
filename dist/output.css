@@ -690,6 +690,14 @@ video {
   height: 1.5rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -720,6 +728,10 @@ video {
 
 .w-6 {
   width: 1.5rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .max-w-screen-xl {
@@ -756,6 +768,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
@@ -1534,6 +1550,11 @@ video {
     padding-bottom: 1.25rem;
   }
 
+  .md\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1571,6 +1592,16 @@ video {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .md\:font-bold {
