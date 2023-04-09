@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <!-- fontawesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- flowbite -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css"  rel="stylesheet" /> -->
+</head>
+
+<body class="antialised">
+
+    <!-- nav__bar -->
+
+    
+<nav class="bg-white ">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:py-10">
+        <h1 class="font-bold text-base md:text-4xl">Blog App</h1>
+
+
+        <!-- humberg__menu -->
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm " aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+       <i class="fas fa-bars"></i>
+      </button>
+
+
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+            <li>
+                <a href="#"class="text-sm text-black hover:text-blue-500  md:text-2xl   hover:underline ">Home</a>
+            </li>
+            <li>
+                <a href="#"class="text-sm text-black hover:text-blue-500  md:text-2xl hover:underline">Services</a>
+            </li>
+            <li>
+                <a href="#"class="text-sm text-black hover:text-blue-500  md:text-2xl hover:underline">Contact</a>
+            </li>
+            <li>
+                <a href="#"class="text-sm text-black hover:text-blue-500  md:text-2xl hover:underline">Blog</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- nav__bar -->
+
+
+    <!-- hero__section -->
+    <section id="hero" class="py-5 px-3">
+        <div class="flex flex-col md:flex-row md:justify-center md:items-center md:gap-5   ">
+
+            <!-- left__side -->
+            <div class="space-y-3 md:space-y-5 md:w-1/3">
+
+                <!-- content__section -->
+                <div class="text-center space-y-3 md:text-left md:space-y-5 ">
+                    <h1 class="text-2xl font-bold md:text-6xl ">Manage all of your cards in one place</h1>
+                    <p class="text-base md:text-2xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequuntur tempore
+                        ipsum et?</p>
+                </div>
+
+
+                <!-- search__section -->
+                <div class="space-y-3 relative  md:flex ">
+                    <input type="search" name=""
+                        class="px-7 py-2 w-full rounded-md focus:border-none   placeholder:text-base border-2 border-gray-100 md:py-4 md:placeholder:text-xl"
+                        placeholder="search article" id="">
+                    <!-- search icons -->
+                    <div class="absolute top-0 left-2 md:top-2">
+                        <i class="fab fa-searchengin text-base md:text-xl"></i>
+                    </div>
+                    <!-- buttons -->
+                    <button
+                        class="px-3 py-2  text-white  font-bold bg-blue-800 rounded-md w-full md:absolute md:w-fit md:-top-2 md:right-2 md:py-3 md:px-10">SEARCH</button>
+                </div>
+
+
+                <!-- popular__tags -->
+                <div>
+
+                    <!-- left__side -->
+                    <div class="">
+                        <p class="text-base font-bold mb-3 md:text-xl">Popular Tags</p>
+                    </div>
+                    <!-- right__side -->
+                    <div class="space-y-2 md:flex md:w-full md:space-y-0 md:space-x-4    ">
+                        <button
+                            class="px-3 py-1  text-blue-800 font-semibold bg-gray-300 text-sm rounded-md md:py-2 md:px-4">Designs</button>
+                        <button
+                            class="px-3 py-1  text-blue-800 font-semibold bg-gray-300 text-sm rounded-md md:py-2 md:px-4">User
+                            Experience</button>
+                        <button
+                            class="px-3 py-1  text-blue-800 font-semibold bg-gray-300 text-sm rounded-md md:py-2 md:px-4">User
+                            Interfaces</button>
+                    </div>
+                </div>
+            </div>
+            <!-- right__side -->
+            <div class="w-1/2">
+                <img src="./images/Marketing consulting-amico.png" class="hidden md:block h-[40rem] w-[40rem] object-contain" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- hero__section_end -->
+
+
+
+    <!-- products__section -->
+    <section id="products" class="px-3 py-5 md:px-52">
+
+        <!-- grid__container -->
+        <div class="grid grid-cols-1 md:grid-cols-3 md:gap-10">
+            <!-- card__container -->
+            <div class=" shadow-md rounded-md overflow-hidden mb-4">
+                <img src="./images/landing.jpg" class=" rounded-t-md w-full h-40 object-cover md:h-60" alt="">
+                <!-- content -->
+                <div class="space-y-2 p-4">
+                    <h2 class="font-bold py-3 text-xl mdX:text-2xl">Future of Work</h2>
+                    <p class="text-sm mb-4 md:text-xl">Majority of people will work in jobs that don't exist today.</p>
+
+                    <!-- user__container -->
+                    <div class="flex justify-around items-center md:justify-between">
+
+                        <div class="flex items-center gap-2">
+                            <img src="./images/landing.jpg" class="w-8 h-8 rounded-full object-cover md:w-12 md:h-12"
+                                alt="">
+                            <div>
+                                <p class="font-bold text-sm md:text-xl">Johanna Marray</p>
+                                <!--department -->
+                                <div class="flex gap-2 items-center ">
+                                    <i class="fab fa-twitter bg-blue-100 text-sm text-blue-300 rounded-full p-1"></i>
+                                    <p class="text-sm md:text-xl">Verified writer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- date -->
+                        <div>
+                            <h3 class="text-gray-500 text-base md:text-xl">02 May</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card__container -->
+            <div class=" shadow-md rounded-md overflow-hidden mb-4">
+                <img src="./images/3.jpg" class=" rounded-t-md w-full h-40 object-cover md:h-60" alt="">
+                <!-- content -->
+                <div class="space-y-2 p-4">
+                    <h2 class="font-bold py-3 text-xl mdX:text-2xl">Future of Work</h2>
+                    <p class="text-sm mb-4 md:text-xl">Majority of people will work in jobs that don't exist today.</p>
+
+                    <!-- user__container -->
+                    <div class="flex justify-around items-center md:justify-between">
+
+                        <div class="flex items-center gap-2">
+                            <img src="./images/3.jpg" class="w-8 h-8 rounded-full object-cover md:w-12 md:h-12" alt="">
+                            <div>
+                                <p class="font-bold text-sm md:text-xl">Johanna Marray</p>
+                                <!--department -->
+                                <div class="flex gap-2 items-center ">
+                                    <i class="fab fa-twitter bg-blue-100 text-sm text-blue-300 rounded-full p-1"></i>
+                                    <p class="text-sm md:text-xl">Verified writer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- date -->
+                        <div>
+                            <h3 class="text-gray-500 text-base md:text-xl">02 May</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card__container -->
+            <div class=" shadow-md rounded-md overflow-hidden mb-4">
+                <img src="./images/landing.jpg" class=" rounded-t-md w-full h-40 object-cover md:h-60" alt="">
+                <!-- content -->
+                <div class="space-y-2 p-4">
+                    <h2 class="font-bold py-3 text-xl mdX:text-2xl">Future of Work</h2>
+                    <p class="text-sm mb-4 md:text-xl">Majority of people will work in jobs that don't exist today.</p>
+
+                    <!-- user__container -->
+                    <div class="flex justify-around items-center md:justify-between">
+
+                        <div class="flex items-center gap-2">
+                            <img src="./images/landing.jpg" class="w-8 h-8 rounded-full object-cover md:w-12 md:h-12"
+                                alt="">
+                            <div>
+                                <p class="font-bold text-sm md:text-xl">Johanna Marray</p>
+                                <!--department -->
+                                <div class="flex gap-2 items-center ">
+                                    <i class="fab fa-twitter bg-blue-100 text-sm text-blue-300 rounded-full p-1"></i>
+                                    <p class="text-sm md:text-xl">Verified writer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- date -->
+                        <div>
+                            <h3 class="text-gray-500 text-base md:text-xl">02 May</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card__container -->
+            <div class=" shadow-md rounded-md overflow-hidden mb-4">
+                <img src="./images/2.jpg" class=" rounded-t-md w-full h-40 object-cover md:h-60" alt="">
+                <!-- content -->
+                <div class="space-y-2 p-4">
+                    <h2 class="font-bold py-3 text-xl mdX:text-2xl">Future of Work</h2>
+                    <p class="text-sm mb-4 md:text-xl">Majority of people will work in jobs that don't exist today.</p>
+
+                    <!-- user__container -->
+                    <div class="flex justify-around items-center md:justify-between">
+
+                        <div class="flex items-center gap-2">
+                            <img src="./images/2.jpg" class="w-8 h-8 rounded-full object-cover md:w-12 md:h-12" alt="">
+                            <div>
+                                <p class="font-bold text-sm md:text-xl">Johanna Marray</p>
+                                <!--department -->
+                                <div class="flex gap-2 items-center ">
+                                    <i class="fab fa-twitter bg-blue-100 text-sm text-blue-300 rounded-full p-1"></i>
+                                    <p class="text-sm md:text-xl">Verified writer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- date -->
+                        <div>
+                            <h3 class="text-gray-500 text-base md:text-xl">02 May</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card__container -->
+            <div class=" shadow-md rounded-md overflow-hidden mb-4">
+                <img src="./images/3.jpg" class=" rounded-t-md w-full h-40 object-cover md:h-60" alt="">
+                <!-- content -->
+                <div class="space-y-2 p-4">
+                    <h2 class="font-bold py-3 text-xl mdX:text-2xl">Future of Work</h2>
+                    <p class="text-sm mb-4 md:text-xl">Majority of people will work in jobs that don't exist today.</p>
+
+                    <!-- user__container -->
+                    <div class="flex justify-around items-center md:justify-between">
+
+                        <div class="flex items-center gap-2">
+                            <img src="./images/3.jpg" class="w-8 h-8 rounded-full object-cover md:w-12 md:h-12" alt="">
+                            <div>
+                                <p class="font-bold text-sm md:text-xl">Johanna Marray</p>
+                                <!--department -->
+                                <div class="flex gap-2 items-center ">
+                                    <i class="fab fa-twitter bg-blue-100 text-sm text-blue-300 rounded-full p-1"></i>
+                                    <p class="text-sm md:text-xl">Verified writer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- date -->
+                        <div>
+                            <h3 class="text-gray-500 text-base md:text-xl">02 May</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card__container -->
+            <div class=" shadow-md rounded-md overflow-hidden mb-4">
+                <img src="./images/2.jpg" class=" rounded-t-md w-full h-40 object-cover md:h-60" alt="">
+                <!-- content -->
+                <div class="space-y-2 p-4">
+                    <h2 class="font-bold py-3 text-xl mdX:text-2xl">Future of Work</h2>
+                    <p class="text-sm mb-4 md:text-xl">Majority of people will work in jobs that don't exist today.</p>
+
+                    <!-- user__container -->
+                    <div class="flex justify-around items-center md:justify-between">
+
+                        <div class="flex items-center gap-2">
+                            <img src="./images/landing.jpg" class="w-8 h-8 rounded-full object-cover md:w-12 md:h-12"
+                                alt="">
+                            <div>
+                                <p class="font-bold text-sm md:text-xl">Johanna Marray</p>
+                                <!--department -->
+                                <div class="flex gap-2 items-center ">
+                                    <i class="fab fa-twitter bg-blue-100 text-sm text-blue-300 rounded-full p-1"></i>
+                                    <p class="text-sm md:text-xl">Verified writer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- date -->
+                        <div>
+                            <h3 class="text-gray-500 text-base md:text-xl">02 May</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+    
+<section id="products" class="px-3 py-5 ">
+    <footer class=" border-t m-4 ">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <h1 class="font-bold text-base text-center md:text-3xl">Blog App</h1>
+    <ul class="font-medium flex flex-col text-center p-4 md:p-0 mt-4  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+        <li>
+            <a href="#"class="text-sm text-gray-500 hover:text-blue-500 md:text-xl   hover:underline ">Home</a>
+        </li>
+        <li>
+            <a href="#"class="text-sm text-gray-500 hover:text-blue-500 md:text-xl hover:underline">Services</a>
+        </li>
+        <li>
+            <a href="#"class="text-sm text-gray-500 hover:text-blue-500 md:text-xl hover:underline">Contact</a>
+        </li>
+        <li>
+            <a href="#"class="text-sm text-gray-500 hover:text-blue-500 md:text-xl hover:underline">Blog</a>
+        </li>
+    </ul>
+    </div>
+    <p class="text-center text-[12px] italic md:text-xl">powered by <a href="https://github.com/mugerwa96" target="_blank"><i class="fab fa-github "></i> mugerwa</a></p>
+</footer>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+</body>
+
+</html>
